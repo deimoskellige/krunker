@@ -1,0 +1,19 @@
+@import "base/_typography";
+@import "base/variables";
+@import "base/_base";
+
+@import "layout/_layout";
+
+@import "components/_header";
+@import "components/_button";
+@import "components/_footer";
+
+@import "pages/_home";
+@import "pages/_settings";
+@import "pages/_styles";
+
+*{
+    -webkit-font-smoothing : none;
+-webkit-font-smoothing : antialiased;
+-webkit-font-smoothing : subpixel-antialiased;
+}
